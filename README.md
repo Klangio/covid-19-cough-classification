@@ -30,15 +30,15 @@ The code is split into four notebooks:
 ## Results
 
 The complete dataset is split into 4 folds and evaluated using cross validation.<br/>
-The model converges after 15 epochs of training.
+The model converges after 20 epochs of training.
 
-|         | Test Accuracy |
-| ------- | ------------: |
-| Fold 1  |       95.35 % |
-| Fold 2  |       97.67 % |
-| Fold 3  |       97.62 % |
-| Fold 4  |       92.86 % |
-| Average |       95.87 % |
+|         | Train Accuracy | Test Accuracy |
+| ------- | -------------: | ------------: |
+| Fold 0  |       100.00 % |       95.35 % |
+| Fold 1  |       100.00 % |       97.67 % |
+| Fold 2  |       100.00 % |       97.62 % |
+| Fold 3  |       100.00 % |       92.86 % |
+| Average |       100.00 % |       95.87 % |
 
 ## Credits
 
