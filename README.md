@@ -52,7 +52,7 @@ Other datasets have not been investigated, yet.
 
 The model used is a simple DNN with 6 Layers. The input is a 26 values feature vector calculated from the audio files using librosa.
 
-![Model](img/model.png)
+<img src="img/model.png" width="300">
 
 ## Results
 
