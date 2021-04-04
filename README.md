@@ -52,7 +52,7 @@ Other datasets have not been investigated, yet.
 
 The model used is a simple DNN with 6 Layers. The input is a 26 values feature vector calculated from the audio files using librosa.
 
-![Model][img/model.png]
+![Model](img/model.png)
 
 ## Results
 
@@ -71,7 +71,7 @@ The model converges after 20 epochs of training.
 | Fold 7      |        96.61 % |       87.50 % |
 | **Average** |    **99.58 %** |   **90.35 %** |
 
-![Confusion Matrix][img/confusion_matrix_balanced.png]
+![Confusion Matrix](img/confusion_matrix_balanced.png)
 
 ## Credits
 
