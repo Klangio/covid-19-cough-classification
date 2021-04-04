@@ -134,3 +134,6 @@ data/*
 !data/README.md
 !data/test.wav
 !data/prepared_data.csv
+
+# Logfiles
+logs/
