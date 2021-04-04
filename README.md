@@ -20,20 +20,25 @@ Download and extract the content of the zip file into the ./data/ directory.
 
 ## Running the code
 
-The code is split into three notebooks:
+The code is split into four notebooks:
 
 1. [001_prepare_data.ipynb](001_prepare_data.ipynb): This notebook extracts the features of the wav files and writes them to a new csv file.
 2. [002_training.ipynb](002_training.ipynb): Trains and evaluates the CoughNet using the extracted features. Finally a checkpoint is saved.
 3. [003_inference.ipynb](003_inference.ipynb): Uses the saved checkpoint to predict on an input wav file. There is also a [pretrained checkpoint](checkpoints/) available.
+4. [004_k_fold_cross_validation.ipynb](004_k_fold_cross_validation.ipynb): K-fold Cross Validation for objective evaluation.
 
 ## Results
 
-The complete dataset is divided into a train (67%) and test (33%) subset.<br/>
+The complete dataset is split into 4 folds and evaluated using cross validation.<br/>
 The model converges after 15 epochs of training.
 
-| Results  | Training |  Test |
-| -------- | -------: | ----: |
-| Accuracy |     100% | 94.7% |
+|         | Test Accuracy |
+| ------- | ------------: |
+| Fold 1  |       95.35 % |
+| Fold 2  |       97.67 % |
+| Fold 3  |       97.62 % |
+| Fold 4  |       92.86 % |
+| Average |       95.87 % |
 
 ## Credits
 
