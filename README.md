@@ -46,7 +46,7 @@ The major problem with this dataset is, that it is highly unbalanced. Only 19 of
 Therefore, in addition to the good test accuracy, the model shows a relatively high false-negative rate. <br/>
 More data, especially positive examples, is needed to develop a reliable, cough audio-based Covid-19 test. <br/>
 
-![Confusion Matrix][img/confusion_matrix.png]
+![Confusion Matrix](img/confusion_matrix.png)
 
 ## Credits
 
