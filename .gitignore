@@ -128,12 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
 # Dataset
-data/*
-!data/README.md
-!data/test.wav
-!data/prepared_data.csv
+data/kaggle/
+data/public_dataset/
+data/recordings/
+data/virufy/
 
 # Logfiles
 logs/
