@@ -1,6 +1,8 @@
 numpy
 pandas
 tqdm
+matplotlib
+jupyter
 librosa==0.7.2
 scikit-learn==0.22.2.post1
 torch==1.7.1

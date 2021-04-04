@@ -40,6 +40,14 @@ The model converges after 20 epochs of training.
 | Fold 3  |       100.00 % |       92.86 % |
 | Average |       100.00 % |       95.87 % |
 
+## Problems
+
+The major problem with this dataset is, that it is highly unbalanced. Only 19 of the 170 examples are labeled as positive. <br/>
+Therefore, in addition to the good test accuracy, the model shows a relatively high false-negative rate. <br/>
+More data, especially positive examples, is needed to develop a reliable, cough audio-based Covid-19 test. <br/>
+
+![Confusion Matrix][img/confusion_matrix.png]
+
 ## Credits
 
 The PyTorch implementation is based on a Keras notebook by Himanshu which can be found here:
