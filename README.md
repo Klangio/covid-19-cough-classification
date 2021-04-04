@@ -14,21 +14,21 @@ pip install -r requirements.txt
 
 ### Download dataset from kaggle
 
-The dataset used for training and evaluation can be found on kaggle:
-https://www.kaggle.com/himanshu007121/coughclassifier-trial
+The dataset used for training and evaluation can be found on kaggle:<br/>
+https://www.kaggle.com/himanshu007121/coughclassifier-trial<br/>
 Download and extract the content of the zip file into the ./data/ directory.
 
 ## Running the code
 
 The code is split into three notebooks:
 
-1. 001_prepare_data.ipynb: This notebook extracts the features of the wav files and writes them to a new csv file.
-2. 002_training.ipynb: Trains and evaluates the CoughNet using the extracted features. Finally a checkpoint is saved.
-3. 003_inference.ipynb: Uses the saved checkpoint to predict on an input wav file. There is also a pretrained checkpoint available.
+1. [001_prepare_data.ipynb](001_prepare_data.ipynb): This notebook extracts the features of the wav files and writes them to a new csv file.
+2. [002_training.ipynb](002_training.ipynb): Trains and evaluates the CoughNet using the extracted features. Finally a checkpoint is saved.
+3. [003_inference.ipynb](003_inference.ipynb): Uses the saved checkpoint to predict on an input wav file. There is also a [pretrained checkpoint](checkpoints/) available.
 
 ## Results
 
-The complete dataset is divided into a train (67%) and test (33%) subset.
+The complete dataset is divided into a train (67%) and test (33%) subset.<br/>
 The model converges after 15 epochs of training.
 
 | Results  | Training |  Test |
